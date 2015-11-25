@@ -1,0 +1,15 @@
+body {
+  background-color: red; }
+
+#root {
+  color: red; }
+
+.isBlue {
+  color: blue; }
+
+div {
+  color: red;
+  text-align: center;
+  border: 1px solid black; }
+
+/*# sourceMappingURL=Scss1.css.map */

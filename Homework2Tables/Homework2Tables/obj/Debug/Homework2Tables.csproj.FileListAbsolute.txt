@@ -1,0 +1,6 @@
+C:\Users\Deyan\Desktop\Telerik Academy\HTML\Homework\Homework2Tables\Homework2Tables\bin\Homework2Tables.dll.config
+C:\Users\Deyan\Desktop\Telerik Academy\HTML\Homework\Homework2Tables\Homework2Tables\bin\Homework2Tables.dll
+C:\Users\Deyan\Desktop\Telerik Academy\HTML\Homework\Homework2Tables\Homework2Tables\bin\Homework2Tables.pdb
+C:\Users\Deyan\Desktop\Telerik Academy\HTML\Homework\Homework2Tables\Homework2Tables\obj\Debug\Homework2Tables.csprojResolveAssemblyReference.cache
+C:\Users\Deyan\Desktop\Telerik Academy\HTML\Homework\Homework2Tables\Homework2Tables\obj\Debug\Homework2Tables.dll
+C:\Users\Deyan\Desktop\Telerik Academy\HTML\Homework\Homework2Tables\Homework2Tables\obj\Debug\Homework2Tables.pdb

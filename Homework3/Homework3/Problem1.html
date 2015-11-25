@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Problem1</title>
+    <style>
+        .bigSize {
+            width: 250px;height:100px;
+        }
+        .lessBigSize {
+            width: 250px;
+            height: 60px;
+        }
+        .smallSize{
+            width:40px;
+        }
+        .normalSize{
+            width:250px;
+        }
+        .sredenlSize {
+            width: 150px;
+        }
+        .stoSize {
+            width: 100px;
+        }
+        .isBlue{
+            background-color:skyblue;
+        }
+        .isCenter{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    
+        <table border="1" cellpadding="2" cellspacing="0">
+            <thead></thead>
+            <tfoot class="isBlue">
+                <tr>
+                    <td colspan="2" class="isCenter">
+                        <form>
+                            <input type="submit" value="Submit"/>
+                            <input type="reset" value="Clear This Form"/>
+                        </form>
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <th>First Name</th>
+                    <td><div><form><input type="text" class="normalSize" /></form></div></td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <td><div><form><input type="text" class="normalSize" /></form></div></td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td><div><form><textarea class="lessBigSize"></textarea></form></div></td>
+                </tr>
+                <tr>
+                    <th>City</th>
+                    <td><div><form><input type="text"/><span>State</span>
+                        <input type="text" class="smallSize"/></form></div></td>
+                </tr>
+                <tr>
+                    <th>Zip/Postal Code</th>
+                    <td><div><form><input type="number" class="smallSize" /></form></div></td>
+                </tr>
+                <tr>
+                    <th>Country</th>
+                    <td><div><form><select class="normalSize">
+                        <option value="1">Bulgaria</option>
+                         <option value="2">USA</option>
+                          <option value="3">Japan</option>
+                        </select></form></div></td>
+                </tr>
+                <tr>
+                    <th class="sredenlSize">Phone(country code areacode,number)</th>
+                    <td><div><form><span>(+</span><input type="number" class="smallSize"/>
+                        <span>)</span><input type="number" class="smallSize" />
+                                 <input type="number" class="stoSize"/></form></div></td>
+                </tr>
+                <tr>
+                    <th>E-mail</th>
+                    <td><div><form><input type="email" class="normalSize" /></form></div></td>
+                </tr>
+                <tr>
+                    <th>Birth date</th>
+                    <td><div><form><input type="text" class="normalSize" value="дд.мм.гггг г."/>
+                        </form></div></td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>
+                        <div>
+                            <form>
+                                <select class="stoSize">
+                                    <option value="1">Male</option>
+                                    <option value="2">Female</option>
+                                </select>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Starting date</th>
+                    <td>
+                        <div>
+                            <form>
+                                <input type="radio" value="1" id="spring" name="radius[]"/>
+                                
+                                <label for="spring">Spring2015</label>
+                                <input type="radio" value="2" id="summer" name="radius[]" />
+                                <label for="summer">Summer2015</label>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Comments/Questions</th>
+                    <td><div><form><textarea class="bigSize"></textarea></form></div></td>
+                </tr>
+
+            </tbody>
+        </table>
+    
+</body>
+</html>

@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Registration Form</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<form id="registrationForm">
+    <table id="registrationFormTable" border="1" cellspacing="1">
+        <tfoot>
+        <tr align="center" bgcolor="lightblue">
+            <td colspan="2" id="foot">
+                <input type="submit" value="Submit"/>
+                <button>Clear This Form</button>
+            </td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <td><label for="lastName"><b>Last name</b></label></td>
+            <td><input type="text" id="lastName" size="20"></td>
+        </tr>
+        <tr>
+            <td><label for="firstName"><b>First name</b></label></td>
+            <td><input type="text" id="firstName" size="20"></td>
+        </tr>
+        <tr>
+            <td><label for="address"><b>Address</b></label></td>
+            <td><textarea  cols="21" rows="3" id="address" ></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="city" size="20"><b>City</b></label></td>
+            <td>
+                <input type="text" id="city"/>
+                <label for="state"><b>State</b></label>
+                <input type="text" id="state" size="14">
+            </td>
+        <tr>
+            <td><label for="zipCode"><b>Zip/Postal Code</b></label></td>
+            <td><input type="text" id="zipCode"/></td>
+        </tr>
+        <tr>
+            <td><label for="country"><b>Country</b></label></td>
+            <td>
+                <select id="country">
+                    <option value="BG">Bulgaria</option>
+                    <option value="USA">USA</option>
+                    <option value="Ukraine">Ukraine</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="phone"><b>Phone</b></label></td>
+            <td>(+<input type="tel" size="6"/> ) <input type="tel" size="6"/> - <input type="tel" id="phone" size="17"/></td>
+        </tr>
+        <tr>
+            <td><label for="email"><b>E-mail</b></label></td>
+            <td><input type="text" id="email"></td>
+        </tr>
+        <tr>
+            <td><label for="birthDate"><b>Birth date</b></label></td>
+            <td><input style="text" size="20" id="birthDate" value="дд . мм . гггг г." /></td>
+        </tr>
+        <tr>
+            <td><label for="gender"><b>Gender</b>Gender</label></td>
+            <td>
+                <select id="gender">
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label><b>Starting date</b></label></td>
+            <td>
+                <input type="radio" name="startingDate" value="Spring"/>Spring 2015
+                <input type="radio" name="startingDate" value="Summer"/>Summer 2015
+            </td>
+        </tr>
+        <tr>
+            <td><label for="comment"><b>Comments/Questions</b></label></td>
+            <td><textarea id="comment" rows="5" cols="22" ></textarea></td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>
